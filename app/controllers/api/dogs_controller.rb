@@ -6,6 +6,7 @@ class Api::DogsController < ApplicationController
       age:  2,
       sex:  "female",
     )
+    @dog.save
     render 'show.json.jb'
   end
 end

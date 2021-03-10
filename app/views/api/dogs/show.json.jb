@@ -1,3 +1,7 @@
 {
-  dog: @dog.name,
+  # id: @dog.id,
+  name: @dog.name,
+  breed: @dog.breed,
+  age: @dog.age,
+  sex: @dog.sex,
 }

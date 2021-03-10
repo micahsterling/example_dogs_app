@@ -8,8 +8,9 @@ Rails.application.routes.draw do
   # end
   
   namespace :api do
-    post "/dogs" => "dogs#show"
+    post "/dogs" => "dogs#create"
 
     post "/users" => "users#create"
+    post "/sessions" => "sessions#create"
   end
 end
